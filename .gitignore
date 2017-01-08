@@ -1,19 +1,51 @@
-# Build and Release Folders
-bin/
-bin-debug/
-bin-release/
-[Oo]bj/ # FlashDevelop obj
-[Bb]in/ # FlashDevelop bin
+*.diff
+*.patch
+*.orig
+*.rej
 
-# Other files and folders
-.settings/
+*~
+.#*
+*#
 
-# Executables
-*.swf
-*.air
-*.ipa
-*.apk
+*.flt
+*.gmo
+*.info
+*.la
+*.lo
+*.o
+*.pyc
+*.tmp
 
-# Project files, i.e. `.project`, `.actionScriptProperties` and `.flexProperties`
-# should NOT be excluded as they contain compiler settings and other important
-# information for Eclipse / Flash Builder.
+.deps
+.libs
+
+autom4te.cache
+config.cache
+config.h
+config.intl
+config.log
+config.status
+libtool
+POTFILES
+*-POTFILES
+
+TAGS
+TAGS.sub
+
+.local.vimrc
+.lvimrc
+
+.clang-format
+
+.gdbinit
+.gdb_history
+
+# ignore core files, but not java/net/protocol/core/
+core
+!core/
+
+lost+found
+
+# ignore ./contrib/gcc_update output
+LAST_UPDATED
+REVISION
